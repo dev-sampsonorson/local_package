@@ -6,6 +6,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // NOTE: Goal!
+      // child: Center(child: MyPackage(child: Text("My text!")))
       body: Center(
         child: Container(
           decoration: BoxDecoration(
