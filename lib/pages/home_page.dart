@@ -5,9 +5,18 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: Text('Sample text'),
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(5.0),
+            color: Colors.blue.withOpacity(0.35),
+          ),
+          child: const Padding(
+            padding: EdgeInsets.all(10.00),
+            child: Text("My text!"),
+          ),
+        ),
       ),
     );
   }
