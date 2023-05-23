@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:coloredcontainer/coloredcontainer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -9,9 +10,9 @@ class HomePage extends StatelessWidget {
       // NOTE: Goal!
       // child: Center(child: MyPackage(child: Text("My text!")))
       body: Center(
-          /* child: ColoredContainer(
-          child: Text("My package text!"),
-        ), */
+        child: ColoredContainer(
+          child: Text("New package text!"),
+        ),
       ),
     );
   }
